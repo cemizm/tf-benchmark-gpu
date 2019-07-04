@@ -1,5 +1,5 @@
 # Dockerized tensorflow benchmark tool with GPU support
-This Docker image is based on the latest [tensorflow/tensorflow](https://hub.docker.com/r/tensorflow/tensorflow) image with gpu support and uses [tensorflow/benchmarks](https://github.com/tensorflow/benchmarks) as an entrypoint. and in order to run some image classification models inside a docker container utilizing GPUs.
+This Docker image is based on the latest [tensorflow/tensorflow](https://hub.docker.com/r/tensorflow/tensorflow) image with python and gpu support. The [tensorflow/benchmarks](https://github.com/tensorflow/benchmarks) repository is cloned and used as an entrypoint for the container. This allows some image classification models to be executed within the container with GPUs by passing the corresponding arguments to the `docker run` command.
 
 For further informations please refer to official [TensorFlow Guide](https://www.tensorflow.org/guide/performance/benchmarks).
 

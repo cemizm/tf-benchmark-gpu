@@ -11,4 +11,6 @@ ENV PYTHONUNBUFFERED 1
 
 WORKDIR /benchmarks/scripts/tf_cnn_benchmarks
 
-ENTRYPOINT ["python", "tf_cnn_benchmarks.py"]
+COPY ./benchmark.sh benchmark.sh
+
+ENTRYPOINT ["./benchmark.sh"]
