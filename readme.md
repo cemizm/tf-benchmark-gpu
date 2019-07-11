@@ -32,7 +32,6 @@ Official TensorFlow results for P100 and K80 can be found in the TensorFlow Guid
 | Dataset     | imagenet (synthetic)      |
 | Mode        | training                  |
 | SingleSess  | False                     |
-| Batch size  | 64 global / 64 per device |
 | Num batches | 100                       |
 | Num epochs  | 0.00                      |
 | NUMA bind   | False                     |
@@ -43,6 +42,6 @@ Official TensorFlow results for P100 and K80 can be found in the TensorFlow Guid
 | GPUs | InceptionV3 | ResNet-50 | ResNet-152 | AlexNet | VGG16 |
 |------|-------------|-----------|------------|---------|-------|
 | 1    | 122         | 196       | 76         | 2371    | 112   |
-| 2    |             |           |            |         |       |
+| 2    | 209         | 364       | 133        | 4408    | 173   |
 | 4    |             |           |            |         |       |
 | 8    |             |           |            |         |       |
