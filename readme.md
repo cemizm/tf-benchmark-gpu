@@ -24,8 +24,6 @@ docker run --runtime=nvidia --rm cemizm/tf-benchmark-gpu --help
 ## Results
 Official TensorFlow results for P100 and K80 can be found in the TensorFlow Guide linked above. Here are some results from consumer hardware for workstation environments.
 
-### RTX 2070
-
 | Setting     | Value                     |
 |-------------|---------------------------|
 | TensorFlow  | 1.14                      |
@@ -39,9 +37,20 @@ Official TensorFlow results for P100 and K80 can be found in the TensorFlow Guid
 | Optimizer   | sgd                       |
 | Variables   | parameter_server          |
 
+### RTX 2070
+
 | GPUs | InceptionV3 | ResNet-50 | ResNet-152 | AlexNet | VGG16 |
 |------|-------------|-----------|------------|---------|-------|
 | 1    | 122         | 196       | 76         | 2371    | 112   |
 | 2    | 209         | 364       | 133        | 4408    | 173   |
+| 4    |             |           |            |         |       |
+| 8    |             |           |            |         |       |
+
+### RTX 2080 TI
+
+| GPUs | InceptionV3 | ResNet-50 | ResNet-152 | AlexNet | VGG16 |
+|------|-------------|-----------|------------|---------|-------|
+| 1    | 194         | 308       | 122        | 3982    | 186   |
+| 2    |             |           |            |         |       |
 | 4    |             |           |            |         |       |
 | 8    |             |           |            |         |       |
