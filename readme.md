@@ -46,6 +46,15 @@ Official TensorFlow results for P100 and K80 can be found in the TensorFlow Guid
 | 4    |             |           |            |         |       |
 | 8    |             |           |            |         |       |
 
+### RTX 2070 Super
+
+| GPUs | InceptionV3 | ResNet-50 | ResNet-152 | AlexNet | VGG16 |
+|------|-------------|-----------|------------|---------|-------|
+| 1    | 134         | 214       | 84         | 2610    | 124   |
+| 2    |             |           |            |         |       |
+| 4    |             |           |            |         |       |
+| 8    |             |           |            |         |       |
+
 ### RTX 2080 TI
 
 | GPUs | InceptionV3 | ResNet-50 | ResNet-152 | AlexNet | VGG16 |
