@@ -22,7 +22,7 @@ docker run --runtime=nvidia --rm cemizm/tf-benchmark-gpu --help
 ```
 
 ## Results
-Official TensorFlow results for P100 and K80 can be found in the TensorFlow Guide linked above. Here are some results from consumer hardware for workstation environments.
+Official TensorFlow results for P100 and K80 can be found in the TensorFlow Guide linked above. Here are some results of consumer hardware in workstation environments.
 
 | Setting     | Value                     |
 |-------------|---------------------------|
